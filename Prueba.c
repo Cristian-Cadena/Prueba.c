@@ -9,17 +9,31 @@ double* genTiempo(double ti, double tf, int N);
 
 // -- Entrada(s) -- //
 
-double ti=1;
-double tf=2;
-int N=4;
+double ti=1;//Variable de tiempo Inicial
+double tf=2;//Variable de tiempo Final
+int N=4;//Numero de puntos (Bloques)
 double h=1/3;
 
 double (*x_in)(double);
 //
 double escalon(double);
-// ------------ //
+
 // -- EDO #1 -- //
-// ------------ //
+
+vi=((RC*dvo/dt)+(vo)
+
+double edo(double t, double x, double x_in_valor);
+
+// -- EDO #2 -- //
+
+vi/R=((Ldi/Rdt)+(i));
+
+double edo(double t, double x, double x_in_valor);
+
+// -- EDO #3 -- //
+
+vi/t=((L*dvi/dt)+(R*di/dt)+(i/c));
+
 double edo(double t, double x, double x_in_valor);
 
 // ---------------------------- //
