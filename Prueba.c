@@ -4,11 +4,16 @@
 // ------------------------------------- //
 // -- GeneraciÃ³n del vector de tiempo -- //
 // ------------------------------------- //
+
 double* genTiempo(double ti, double tf, int N);
 
-// ---------------- //
 // -- Entrada(s) -- //
-// ---------------- //
+
+double ti=1;
+double tf=2;
+int N=4;
+double h=1/3;
+
 double (*x_in)(double);
 //
 double escalon(double);
@@ -45,21 +50,8 @@ int main() {
 
     *(px + 0) = 1.0;
 
-    //Circuito 1 S1
     euler(px, h, pt, N, edo, x_in);
-   //Circuito 1 S2
-    euler(px, h, pt, N, edo, x_in);
-   //Circuito 1 S3
-    euler(px, h, pt, N, edo, x_in);
-    
-    euler(px, h, pt, N, edo, x_in);
-    euler(px, h, pt, N, edo, x_in);
-    euler(px, h, pt, N, edo, x_in);
-    
-    euler(px, h, pt, N, edo, x_in);
-    euler(px, h, pt, N, edo, x_in);
-    euler(px, h, pt, N, edo, x_in);
-    
+
 }
 
 //////////////////////////////////////////////////////////////////////////////////////////
