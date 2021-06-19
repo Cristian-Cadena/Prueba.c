@@ -45,8 +45,21 @@ int main() {
 
     *(px + 0) = 1.0;
 
+    //Circuito 1 S1
     euler(px, h, pt, N, edo, x_in);
-
+   //Circuito 1 S2
+    euler(px, h, pt, N, edo, x_in);
+   //Circuito 1 S3
+    euler(px, h, pt, N, edo, x_in);
+    
+    euler(px, h, pt, N, edo, x_in);
+    euler(px, h, pt, N, edo, x_in);
+    euler(px, h, pt, N, edo, x_in);
+    
+    euler(px, h, pt, N, edo, x_in);
+    euler(px, h, pt, N, edo, x_in);
+    euler(px, h, pt, N, edo, x_in);
+    
 }
 
 //////////////////////////////////////////////////////////////////////////////////////////
